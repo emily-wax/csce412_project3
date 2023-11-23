@@ -1,0 +1,115 @@
+h2 {
+    font-size: xx-large;
+}
+
+img {
+    border-radius: 8px;
+    height: auto;
+}
+
+.object-position-1 {
+    position: fixed;
+    width: 500px;
+    height: auto;
+    top: 27%;
+    margin-left: 59%;
+}
+.object-position-2 {
+    width: 30px;
+    height: 30px;
+}
+
+.object-position-3 {
+    position: fixed;
+    width: 500px;
+    top: 20%;
+    height: auto;
+    margin-left: 59%;
+}
+
+html {
+    background: url(mountains.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 75% georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.link-box {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color:#ffffff;
+    padding: 10px 14px 20px 44px;
+    font: 75% georgia, sans-serif;
+    font-size: x-large;
+    position: fixed;
+    bottom: 0%;
+    left:0%;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.text-box {
+
+    background-color: white;
+    padding: 10px 14px 10px 44px;
+    border-radius: 5px;
+    color:#132965;
+
+    font: 75% georgia, sans-serif;
+    font-size: 165%;
+    text-align: left;
+    width: 600px;
+    overflow: auto;
+}
+
+.text-box-1 {
+    margin-left: 10%;   /* left */
+    position:fixed;
+    top: 18%;
+    max-height: 70%;
+}
+
+.text-box-2 {   /* center */
+    position: fixed;
+    top: 15%;
+    left: 35%;
+}
+
+.link-box-bottom {
+    background-color: #132965;
+    bottom:0%;
+    word-spacing: 400px;
+}
+
+.link-box-top {
+    background-color: #132965;
+    top: 0%;
+    height: 20px;
+}
+
+.plain-link{
+    text-decoration: none;
+    color: white;
+}
+.underline-text {
+    text-decoration: underline;
+    text-decoration-color: #132965;
+    color: #132965;
+}
+
+
+.pdf-mover {
+    margin-left: 55%;
+    margin-top: 10%;
+}

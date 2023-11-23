@@ -1,0 +1,131 @@
+
+/* Basic setup of page & body */
+html {
+    background-color: #343148FF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: helvetica;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: xx-large;
+}
+/* link box section */
+.link-box {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #d7c49eff;;
+    padding: 10px 14px 20px 44px;
+    font: helvetica;
+    font-size: x-large;
+    position: fixed;
+    bottom: 0%;
+    
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.link-box-bottom {
+    background-color: #d7c49eff;
+    top:0%;
+    height: 20px;
+    word-spacing: 400px;
+    left:0%;
+}
+
+.link-box-top {
+    background-color: #343148FF;
+   
+    top: 30%;
+    height: 100%;
+    width: 10px;
+}
+
+.plain-link{
+    text-decoration: none;
+    color: #343148FF;
+    font-weight: bold;
+}
+
+.underline-text {
+    text-decoration: underline;
+    text-decoration-color: #d7c49eff;
+    color: #d7c49eff;
+}
+
+/* text box section */
+
+.text-box {
+
+    background-color: #343148FF;
+    padding: 10px 14px 10px 44px;
+    border-radius: 5px;
+    border-color: #d7c49eff;
+    border-style: double;
+    box-shadow: 5px 10px #d7c49eff;
+    color:#d7c49eff;
+
+    font: helvetica;
+    font-size: 165%;
+    text-align: left;
+    width: 600px;
+    overflow: auto;
+}
+
+.text-box-1 {
+    margin-left: 50%;   /* right */
+    position:fixed;
+    top: 18%;
+    max-height: 70%;
+}
+
+.text-box-2 {   /* center */
+    margin-top: 5%;
+    margin-left: 35%;
+    border-style: dotted;
+    border-color: #d7c49eff;
+}
+
+/* image/pdf things */
+
+img {
+    border-radius: 8px;
+    height: auto;
+}
+
+.object-position-1 {
+    position: fixed;
+    width: 500px;
+    height: auto;
+    top: 27%;
+    margin-left: 10%;
+}
+.object-position-2 {
+    width: 30px;
+    height: 30px;
+}
+
+.object-position-3 {
+    position: fixed;
+    width: 500px;
+    top: 20%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.pdf-mover {
+    margin-left: 10%;
+    margin-top: 10%;
+}
